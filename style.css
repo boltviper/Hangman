@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#wordToGuess {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+}
+
+button {
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: #0074cc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#message {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+#resetButton {
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: #cc0000; /* Rød farve for nulstil-knappen */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: none; /* Starter skjult */
+    margin-top: 20px;
+}
